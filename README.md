@@ -59,3 +59,17 @@ Alternatively, you can compile your own executable from the source files.
 ```
 COGS.out -f <SourceFileBase> -s <PathToFirstSet> -t <PathToSecondSet> -o <OrthoFinderOutput> -r <OutputDir> [-p]
 ```
+
+
+## Options
+
+| Flag            | Description                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------|
+| `-f <FastaFilesBase>`    | Path to the directory containing your FASTA files. **Required**                               |
+| `-s <FastaFileFirstSet>` | Path to the first orthogroup set in FASTA format. **Required**                                |
+| `-t <FastaFileSecondSet>`| Path to the second orthogroup set in FASTA format. **Required**                               |
+| `-o <OrthoGroupFilesPath>`| Path to the directory containing the Orthogroups in TSV format. **Required**                 |
+| `-r <OutputDirPath>`     | Path to the directory where the output files will be written. **Required**                    |
+| `-p`                    | Reformat all FASTA headers to the format needed for PhyloPyPruner. **Optional** (default: keep original headers) |
+| `-x <PPPInputDirSet1>`   | Use the PhyloPyPruner input directory for Set 1 instead of the base FASTA file. **Optional**  |
+| `-y <PPPInputDirSet2>`   | Use the PhyloPyPruner input directory for Set 2 instead of the base FASTA file. **Optional**  |
