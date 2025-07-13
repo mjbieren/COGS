@@ -64,7 +64,7 @@ COGS_Static.out -f <SourceFileBase> -s <PathToFirstSet> -t <PathToSecondSet> -o 
 Method 2
 ```
 COGS_Static.out -s <PPP_INGROUP_OUTPUT> -x <PPP_INGROUP_INPUT> -t <FPPP_OUTGROUP_OUTPUT> -y <PPP_OUTGROUP_INPUT> [-p]
-``
+```
 
 ## Options
 
